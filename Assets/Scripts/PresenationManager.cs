@@ -16,7 +16,7 @@ public class PresenationManager : MonoBehaviour
 
     void GetMouseInput()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) && step <26)
         {
             DisableAllFrames();
             step++;
